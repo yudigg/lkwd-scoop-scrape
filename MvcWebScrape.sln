@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebScrape", "MvcWebScrape\MvcWebScrape.csproj", "{F96124FC-0369-4372-8D9E-03D90E223F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrape.Data", "WebScrape.Data\WebScrape.Data.csproj", "{6630445F-8827-4680-890D-FE9C72D29ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{CA367A70-B0C3-4062-8335-F05FA561C949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F96124FC-0369-4372-8D9E-03D90E223F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96124FC-0369-4372-8D9E-03D90E223F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96124FC-0369-4372-8D9E-03D90E223F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96124FC-0369-4372-8D9E-03D90E223F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6630445F-8827-4680-890D-FE9C72D29ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6630445F-8827-4680-890D-FE9C72D29ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6630445F-8827-4680-890D-FE9C72D29ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6630445F-8827-4680-890D-FE9C72D29ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA367A70-B0C3-4062-8335-F05FA561C949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA367A70-B0C3-4062-8335-F05FA561C949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA367A70-B0C3-4062-8335-F05FA561C949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA367A70-B0C3-4062-8335-F05FA561C949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

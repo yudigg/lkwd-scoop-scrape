@@ -1,0 +1,21 @@
+﻿@using WebScrape.Data
+@model IEnumerable<Post>
+<table class="table">
+    @foreach (Post p in Model)
+    {
+        <tr class="well">
+            <td><img src="@p.Image"style="width:200px;height:100px;"/></td>
+            <td>
+                <a href="@p.TitleUrl">@p.Title</a>          
+            </td>
+            <td><a href="@p.ParagraphUrl">@p.Paragraph</a></td>
+            <td><button class="btn btn-info"data-url="@p.TitleUrl">View Details</button></td>
+        </tr>
+        
+    }
+</table>
+<br />
+<div></div>
+@section scripts{
+<script src="~/Scripts/index/sitescripts.js"></script>
+}
